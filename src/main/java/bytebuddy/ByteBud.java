@@ -21,7 +21,7 @@ public class ByteBud {
 
     StringLongStateStore store = new StringLongStateStore();
 
-    System.out.println(store.findByKey("hello"));
+    System.out.println(store.findBy("Key", "hello"));
   }
 
 }

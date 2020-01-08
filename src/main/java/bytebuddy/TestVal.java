@@ -10,4 +10,8 @@ public class TestVal {
   public Long getVal() {
     return val;
   }
+
+  public String toString() {
+    return "My value is: " + val;
+  }
 }
